@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.65">
+    <BorderPane layoutX="200.0" layoutY="100.0" prefHeight="400.0" prefWidth="600.0" styleClass="background"
+                stylesheets="@rootStyle.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0"
+                AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <top>
+            <ImageView fitHeight="148.0" fitWidth="295.0" pickOnBounds="true" preserveRatio="true"
+                       BorderPane.alignment="CENTER">
+                <Image url="@rest.jpeg"/>
+            </ImageView>
+        </top>
+        <center>
+            <Text fill="#b7bc1a" stroke="#3b41b5" strokeLineCap="ROUND" strokeLineJoin="BEVEL" strokeType="OUTSIDE"
+                  strokeWidth="0.6" text="REST API (v1.0)" textAlignment="CENTER" wrappingWidth="271.21875"
+                  BorderPane.alignment="CENTER">
+                <font>
+                    <Font name="Trattatello" size="36.0"/>
+                </font>
+            </Text>
+        </center>
+        <bottom>
+            <Label alignment="BASELINE_CENTER" contentDisplay="CENTER" text="Author Ramil Safin 2016"
+                   textAlignment="CENTER" BorderPane.alignment="BASELINE_CENTER">
+                <font>
+                    <Font name="Verdana Italic" size="16.0"/>
+                </font>
+            </Label>
+        </bottom>
+    </BorderPane>
+</AnchorPane>
